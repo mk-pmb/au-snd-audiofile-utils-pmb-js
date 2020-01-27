@@ -1,0 +1,47 @@
+{ "name": "au-snd-audiofile-utils-pmb",
+  "version": "0.0.1",
+  "description": "Tools for reading and writing .au (.snd) files as/from arrays of sample values.",
+  "keywords": [
+    "au",
+    "audio",
+    "snd"
+  ],
+
+  "author": "M.K. (https://github.com/mk-pmb)",
+  "homepage": "https://github.com/mk-pmb/au-snd-audiofile-utils-pmb-js/#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mk-pmb/au-snd-audiofile-utils-pmb-js.git"
+  },
+  "bugs": {
+    "url": "https://github.com/mk-pmb/au-snd-audiofile-utils-pmb-js/issues"
+  },
+  "contributors": [],
+
+  "private": false, "license": "ISC",
+
+  "main": "src/api.js",
+  "bin": "bin/cli.sh",
+  "directories": {
+    "doc": "docs",
+    "test": "test"
+  },
+  "scripts": { "test": "nodemjs test/all.mjs" },
+
+  "dependencies": {
+    "binary-pmb": "^0.3.5",
+    "if-fun": "^1.0.0",
+    "is-string": "^1.0.4",
+    "nodemjs": "^0.1.8",
+    "nofs": "^0.12.2",
+    "p-fatal": "^0.1.2",
+    "p-immediate": "^3.1.0",
+    "read-data-file": "^2.0.0",
+    "vtry": "^1.0.4"
+  },
+  "devDependencies": {
+  },
+
+
+  "npm vs. BOM = Unexpected token": "-*- coding: UTF-8 -*-"
+}
